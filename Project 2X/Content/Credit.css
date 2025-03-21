@@ -1,0 +1,61 @@
+﻿<style >
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.installment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .installment-table th, .installment-table td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    .installment-table th {
+        background: #007bff;
+        color: white;
+        font-size: 16px;
+    }
+
+    .installment-table tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+
+    .installment-table tr:hover {
+        background: #f1f1f1;
+    }
+
+.apply-button {
+    display: block;
+    width: 250px;
+    margin: 30px auto;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+    .apply-button:hover {
+        background-color: #0056b3;
+    }
+
+</style >
